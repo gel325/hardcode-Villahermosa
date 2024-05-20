@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+  }
+  
+  header {
+    background: linear-gradient(to right, #e5860af2, violet, #05bdf0);
+    color: rgb(8, 7, 7);
+    padding: 35px 40px;
+  }
+  
+  .other-image {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px;
+    float: right;
+  }
+
+  .other-logo {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px;
+    float: left;
+  }
+
+  nav a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 50px;
+    margin: 10px;
+    float: right;
+    font-style: initial;
+  }
+  
+  nav a:hover {
+    color:#fff204
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .title h1 {
+    margin-left: 32.5rem;
+    margin-right: 30rem;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 5rem;
+  }
+
+  .title p {
+    margin-left: 25.3rem;
+    margin-right: 30rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #101068;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 8rem;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 85%;
+    display: block;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.lightbox-content, .close {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 13rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer .p1 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+}
+
+.footer .p2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 0rem;
+}
+
+.footer h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: rgb(144, 242, 255);
+}
+
+.those-image {
+  width: 10rem; 
+  height: auto; 
+  margin-right: 10px;
+  float: right;
+}
+
+.those-logo {
+  width: 10rem; 
+  height: auto; 
+  margin-right: 10px;
+  float: left;
+}

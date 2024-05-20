@@ -1,0 +1,242 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+  }
+  
+  header {
+    background: linear-gradient(to right, #e5860af2, violet, #05bdf0);
+    color: rgb(8, 7, 7);
+    padding: 35px 40px;
+  }
+  
+  .other-image {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px;
+    float: right;
+  }
+
+  .other-logo {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px;
+    float: left;
+  }
+
+  nav a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 50px;
+    margin: 10px;
+    float: right;
+    font-style: initial;
+  }
+  
+  nav a:hover {
+    color:#fff204
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .school {
+    background-color: rgb(214, 216, 217);
+  }
+
+  .tup-title h1{
+    background-color: rgb(214, 216, 217);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+
+  .tup-school {
+    padding: 0.3rem;
+    width: 80rem;
+    height: auto;
+    margin-left: 6.5rem;
+    margin-top: 1rem;
+    background-color: white;
+    padding: 0.3rem;
+  }
+
+  .tup-logo {
+    float: left;
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .the-logo p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 0px 10px;
+    padding-bottom: 115px;
+    padding-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    margin-left: 20rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    background: linear-gradient(to right, #e5860a72, rgba(238, 130, 238, 0.471), #05bdf057, white, white);
+  }
+
+
+
+
+
+  .other-school {
+    background-color: rgb(115, 206, 252);
+  }
+
+  .elementary-title h1{
+    background-color: rgb(115, 206, 252);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+
+  .elementary-school {
+    padding: 0.3rem;
+    width: 80rem;
+    height: 32rem;
+    margin-left: 6.5rem;
+    margin-top: 1rem;
+    background-color: white;
+    padding: 0.3rem;
+  }
+
+  .elementary-logo {
+    float: left;
+    width: 18rem;
+    height: 17rem;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .logo-other p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 0px 10px;
+    padding-bottom: 115px;
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    margin-left: 20rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    background: linear-gradient(to right, #e5860a72, rgba(238, 130, 238, 0.471), #05bdf057, white, white);
+  }
+
+
+
+
+  .some-school {
+    background-color: rgb(214, 216, 217);
+  }
+
+  .center-title h1{
+    background-color: rgb(214, 216, 217);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3rem;
+    font-size: 2rem;
+  }
+
+  .center-school {
+    padding: 0.3rem;
+    width: 80rem;
+    height: 32rem;
+    margin-left: 6.5rem;
+    margin-top: 1rem;
+    background-color: white;
+    padding: 0.3rem;
+  }
+
+  .center-logo {
+    float: left;
+    width: 18rem;
+    height: 17rem;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .logo-some p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 0px 10px;
+    padding-bottom: 115px;
+    padding-top: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+    margin-left: 20rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    background: linear-gradient(to right, #e5860a72, rgba(238, 130, 238, 0.471), #05bdf057, white, white);
+  }
+
+  .footer {
+    margin-top: 5rem;
+    background-color: black;
+    color: white;
+    height: 13rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .footer .p1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+  }
+
+  .footer .p2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0rem;
+  }
+
+  .footer h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(144, 242, 255);
+  }
+
+  .those-image {
+    width: 10rem; 
+    height: auto; 
+    margin-right: 10px;
+    float: right;
+  }
+
+  .those-logo {
+    width: 10rem; 
+    height: auto; 
+    margin-right: 10px;
+    float: left;
+  }

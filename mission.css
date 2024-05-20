@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+  }
+  
+  header {
+    background: linear-gradient(to right, #e5860af2, violet, #05bdf0);
+    color: rgb(8, 7, 7);
+    padding: 35px 40px;
+  }
+  
+  .other-image {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px;
+    float: right;
+  }
+
+  .other-logo {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px;
+    float: left;
+  }
+
+  nav a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 50px;
+    margin: 10px;
+    float: right;
+    font-style: initial;
+  }
+  
+  nav a:hover {
+    color:#fff204
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+    margin-left: 28.5rem;
+  }
+
+.shape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+.circle, .square {
+    width: 400px;
+    height: 80px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    border-radius: 5%;
+    background: linear-gradient(to top, gray, black,black,black,black,black,gray);
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    margin-left: 5rem;
+    height: 50px;
+    width: 432px;
+}
+.square {
+    background-color: rgb(174, 239, 233);
+    margin-left: 5rem;
+    height: 180px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.663);
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 29rem;
+    color: rgb(255, 255, 255);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.history {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  height: 55rem;
+  margin-top: 5rem;
+}
+
+.texts {
+  color:rgb(0, 0, 0);
+  width: 80rem;
+  display: inline-block;
+  text-align: justify;
+  margin-left: 5rem;
+  font-weight: bold;
+  line-height: 2.5;
+  background-color: #ededed;
+  padding: 2rem;
+  border-radius: 5%;
+  margin-bottom: 10rem;
+}
+
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer {
+    background-color: black;
+    color: white;
+    height: 13rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .footer .p1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+  }
+
+  .footer .p2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0rem;
+  }
+
+  .footer h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(144, 242, 255);
+  }
+
+  .those-image {
+    width: 10rem; 
+    height: auto; 
+    margin-right: 10px;
+    float: right;
+  }
+
+  .those-logo {
+    width: 10rem; 
+    height: auto; 
+    margin-right: 10px;
+    float: left;
+  }

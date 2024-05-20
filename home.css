@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e5860a97,rgba(238, 130, 238, 0.577), rgba(130, 211, 238, 0.615));
+  }
+  
+  header {
+    background: linear-gradient(to right, #e5860af2, violet, #05bdf0);
+    color: rgb(8, 7, 7);
+    padding: 35px 40px;
+  }
+  
+  .other-image {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px;
+    float: right;
+  }
+
+  .other-logo {
+    width: 80px; 
+    height: auto; 
+    margin-right: 10px;
+    float: left;
+  }
+
+  nav a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 50px;
+    margin: 10px;
+    float: right;
+    font-style:initial;
+  }
+  
+  nav a:hover {
+    color:#fff204
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  .hero {
+    background-size: cover;
+    background-position: right;
+    text-align:left;
+    color: rgb(0, 0, 0);
+    padding: 120px 10px;
+    padding-bottom: 6rem;
+    font-size: 1.2rem;
+    background-color: rgb(244, 251, 251);
+  }
+
+  .to-image {
+    box-shadow: 10px 10px 5px #757373;
+    transition: transform 0.3s ease; 
+    margin-right: 2rem;
+  }
+
+  .to-image:hover {
+    transform: scale(1.05); 
+  }
+
+  h3 {
+    font-size: 1rem;
+    text-align: justify;
+    padding-right: 1000px;
+    font-weight: bold;
+    padding-left: 1rem;
+  }
+
+  h4 {
+    font-size: 4rem;
+    text-align: justify;
+    padding-right: 1000px;
+    font-weight: bold;
+    padding-left: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-right: 1000px;
+    padding-left: 1rem;
+  }
+
+  .other-small {
+    float: left;
+    width: 400px;
+    height: inherit;
+    border-radius: 0%; 
+    transition: transform 0.3s ease; 
+  }
+
+  .other-small:hover {
+    transform: scale(1.2); 
+  }
+
+
+  .message {
+  background-color: rgb(255, 255, 255);
+  margin-top: 12rem;
+  margin-bottom: 10rem;
+
+  }
+
+  .message p {
+    background-size: cover;
+    background-position: right;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px;
+    padding-bottom: 115px;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 15rem;
+    margin-right: 2rem;
+  }
+
+  .message h1 {
+    background-size: cover;
+    background-position: right;
+    text-align:left;
+    color: rgb(0, 0, 0);
+    padding: 50px 10px;
+    padding-bottom: 0px;
+    font-size: 2rem;
+  }
+
+  img {
+    float: right;
+    width: 900px;
+    height: inherit;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  .demographic {
+    background-color: #ffffff;
+    width:fit-content; 
+    height: 500px; 
+  }
+
+  .demographic h2 {
+    background-size: cover;
+    background-position: right;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 50px 10px;
+    padding-bottom: 0px;
+    font-size: 2rem;
+  }
+
+  .demographic p {
+    background-size: cover;
+    background-position: right;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px;
+    padding-bottom: 150px;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+    margin: 3rem;
+  }
+
+  .footer {
+    background-color: black;
+    color: white;
+    height: 13rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .footer .p1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+  }
+
+  .footer .p2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0rem;
+  }
+
+  .footer h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(144, 242, 255);
+  }
+
+  .those-image {
+    width: 10rem; 
+    height: auto; 
+    margin-right: 10px;
+    float: right;
+  }
+
+  .those-logo {
+    width: 10rem; 
+    height: auto; 
+    margin-right: 10px;
+    float: left;
+  }
+
+  .footer {
+    background-color: black;
+    color: white;
+    height: 13rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .footer .p1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+  }
+
+  .footer .p2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0rem;
+  }
+
+  .footer h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(144, 242, 255);
+  }
+
+  .those-image {
+    width: 10rem; 
+    height: auto; 
+    margin-right: 10px;
+    float: right;
+  }
+
+  .those-logo {
+    width: 10rem; 
+    height: auto; 
+    margin-right: 10px;
+    float: left;
+  }
